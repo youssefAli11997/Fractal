@@ -20,8 +20,8 @@
          <children>
             <Pane layoutX="0.0" layoutY="0.0" prefHeight="80.0" prefWidth="600.0">
                <children>
-                  <Button layoutX="20.0" layoutY="25.0" prefWidth="150" text="Decrease Level" />
-                  <Button layoutX="200.0" layoutY="25.0" prefWidth="150" text="Increase Level" />
+                  <Button layoutX="20.0" layoutY="25.0" onMouseClicked="#decreaseLevelBtnClicked" prefWidth="150" text="Decrease Level" />
+                  <Button layoutX="200.0" layoutY="25.0" onMouseClicked="#increaseLevelBtnClicked" prefWidth="150" text="Increase Level" />
                   <Label fx:id="levelLabel" layoutX="380.0" layoutY="30.0" prefWidth="150" text="Level: 0" />
                </children></Pane>
             <Canvas fx:id="canvas" height="320.0" layoutX="0.0" layoutY="80.0" width="600.0" />
