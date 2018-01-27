@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Pane layoutX="0.0" layoutY="0.0" prefHeight="80.0" prefWidth="600.0">
+               <children>
+                  <Button layoutX="20.0" layoutY="25.0" prefWidth="150" text="Decrease Level" />
+                  <Button layoutX="200.0" layoutY="25.0" prefWidth="150" text="Increase Level" />
+                  <Label fx:id="levelLabel" layoutX="380.0" layoutY="30.0" prefWidth="150" text="Level: 0" />
+               </children></Pane>
+            <Canvas fx:id="canvas" height="320.0" layoutX="0.0" layoutY="80.0" width="600.0" />
+         </children></Pane>
+   </children>
+</GridPane>
