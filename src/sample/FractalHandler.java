@@ -7,8 +7,6 @@ public class FractalHandler {
 
     GraphicsContext graphicsContext;
 
-    double heightOffset = 30;
-
     public FractalHandler(GraphicsContext graphicsContext) {
         this.graphicsContext = graphicsContext;
     }

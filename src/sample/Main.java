@@ -19,7 +19,7 @@ public class Main extends Application {
         Parent root = fxmlLoader.load();
         controller = fxmlLoader.getController();
         controller.init();
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("Fractal");
         primaryStage.setScene(new Scene(root, 600, 400));
         primaryStage.setResizable(false);
         primaryStage.show();
